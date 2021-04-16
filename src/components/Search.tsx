@@ -38,7 +38,7 @@ const Search = ({ title }: SearchProps) => {
               placeholder="Enter city name"
               value={city}
               onChange={changeHandler}
-              style={{ maxWidth: 300 }}
+              style={{ maxWidth: 300, marginBottom: 10 }}
             />
             <button
               className="button is-primary is-fullwidth"
